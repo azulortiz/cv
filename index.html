@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículum Vitae</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            margin: 0;
+            background: #f4f6f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .sidebar {
+            background: #1e293b;
+            color: white;
+            padding: 30px;
+        }
+
+        .sidebar h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .sidebar p {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        .section {
+            margin-top: 25px;
+        }
+
+        .section h3 {
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+            padding-bottom: 5px;
+        }
+
+        .main {
+            padding: 30px;
+        }
+
+        .main h2 {
+            margin-top: 0;
+            color: #1e293b;
+        }
+
+        .job {
+            margin-bottom: 20px;
+        }
+
+        .job h4 {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .job span {
+            font-size: 13px;
+            color: gray;
+        }
+
+        .job p {
+            margin: 5px 0 0;
+            font-size: 14px;
+        }
+
+        ul {
+            padding-left: 18px;
+        }
+
+        @media (max-width: 700px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LADO IZQUIERDO -->
+    <div class="sidebar">
+        <h1>Juan Pérez</h1>
+        <p>Desarrollador Web</p>
+
+        <div class="section">
+            <h3>Contacto</h3>
+            <p>📍 Mendoza, Argentina</p>
+            <p>📞 +54 9 261 123 4567</p>
+            <p>✉️ juan@email.com</p>
+            <p>🌐 linkedin.com/in/juanperez</p>
+        </div>
+
+        <div class="section">
+            <h3>Habilidades</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React</li>
+                <li>Git y GitHub</li>
+                <li>Trabajo en equipo</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Idiomas</h3>
+            <p>Español: Nativo</p>
+            <p>Inglés: Intermedio</p>
+        </div>
+    </div>
+
+    <!-- LADO DERECHO -->
+    <div class="main">
+        <h2>Perfil Profesional</h2>
+        <p>
+            Desarrollador web con experiencia en creación de aplicaciones modernas,
+            enfocado en soluciones eficientes y escalables. Busco oportunidades
+            para crecer profesionalmente y aportar valor en equipos dinámicos.
+        </p>
+
+        <h2>Experiencia Laboral</h2>
+
+        <div class="job">
+            <h4>Desarrollador Frontend - Empresa XYZ</h4>
+            <span>2022 - Actualidad</span>
+            <p>
+                Desarrollo de interfaces web con React, optimización de rendimiento
+                y colaboración con equipos de diseño.
+            </p>
+        </div>
+
+        <div class="job">
+            <h4>Soporte IT - Empresa ABC</h4>
+            <span>2020 - 2022</span>
+            <p>
+                Mantenimiento de sistemas, asistencia a usuarios y resolución de
+                problemas técnicos.
+            </p>
+        </div>
+
+        <h2>Educación</h2>
+
+        <div class="job">
+            <h4>Tecnicatura en Programación</h4>
+            <span>UTN - 2018 - 2021</span>
+        </div>
+
+        <h2>Proyectos</h2>
+
+        <div class="job">
+            <h4>Portfolio Personal</h4>
+            <p>
+                Sitio web personal para mostrar proyectos y habilidades técnicas.
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
