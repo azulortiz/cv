@@ -1,173 +1,155 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Currículum Vitae</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, sans-serif;
-            margin: 0;
-            background: #f4f6f9;
-            color: #333;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV - Azul Ortiz</title>
 
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            background: #fff;
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-            border-radius: 10px;
-            overflow: hidden;
-        }
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: #7f9ca6; /* celeste grisáceo oscuro */
+    }
 
-        .sidebar {
-            background: #1e293b;
-            color: white;
-            padding: 30px;
-        }
+    .page {
+        max-width: 900px;
+        margin: 50px auto;
+        background: white;
+        display: flex;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        overflow: hidden;
+    }
 
-        .sidebar h1 {
-            margin: 0;
-            font-size: 24px;
-        }
+    /* COLUMNA IZQUIERDA */
+    .sidebar {
+        width: 30%;
+        background: #5f7c8a;
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+    }
 
-        .sidebar p {
-            font-size: 14px;
-            opacity: 0.8;
-        }
+    .photo {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        background: #ccc;
+        margin: 0 auto 20px;
+        background-size: cover;
+        background-position: center;
+    }
 
-        .section {
-            margin-top: 25px;
-        }
+    h1 {
+        margin: 10px 0 5px;
+        font-size: 22px;
+    }
 
-        .section h3 {
-            font-size: 14px;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-            border-bottom: 1px solid rgba(255,255,255,0.3);
-            padding-bottom: 5px;
-        }
+    .sidebar p {
+        font-size: 14px;
+        margin: 5px 0;
+    }
 
-        .main {
-            padding: 30px;
-        }
+    .section-title {
+        margin-top: 25px;
+        font-size: 16px;
+        border-bottom: 1px solid rgba(255,255,255,0.4);
+        padding-bottom: 5px;
+    }
 
-        .main h2 {
-            margin-top: 0;
-            color: #1e293b;
-        }
+    ul {
+        list-style: none;
+        padding: 0;
+        font-size: 14px;
+    }
 
-        .job {
-            margin-bottom: 20px;
-        }
+    ul li {
+        margin: 8px 0;
+    }
 
-        .job h4 {
-            margin: 0;
-            font-size: 16px;
-        }
+    /* COLUMNA DERECHA */
+    .content {
+        width: 70%;
+        padding: 30px;
+    }
 
-        .job span {
-            font-size: 13px;
-            color: gray;
-        }
+    .content h2 {
+        color: #5f7c8a;
+        border-bottom: 2px solid #d0dde2;
+        padding-bottom: 5px;
+        margin-top: 20px;
+    }
 
-        .job p {
-            margin: 5px 0 0;
-            font-size: 14px;
-        }
+    .content p {
+        color: #444;
+        line-height: 1.6;
+        font-size: 14px;
+    }
 
-        ul {
-            padding-left: 18px;
-        }
+</style>
 
-        @media (max-width: 700px) {
-            .container {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
 </head>
+
 <body>
 
-<div class="container">
+<div class="page">
 
-    <!-- LADO IZQUIERDO -->
+    <!-- IZQUIERDA -->
     <div class="sidebar">
-        <h1>Juan Pérez</h1>
-        <p>Desarrollador Web</p>
+        <div class="photo"></div>
 
-        <div class="section">
-            <h3>Contacto</h3>
-            <p>📍 Mendoza, Argentina</p>
-            <p>📞 +54 9 261 123 4567</p>
-            <p>✉️ juan@email.com</p>
-            <p>🌐 linkedin.com/in/juanperez</p>
-        </div>
+        <h1>Azul Ortiz</h1>
+        <p>15 años</p>
+        <p>San Martín, Mendoza</p>
+        <p>2634-762322</p>
+        <p>ortizazul29@gmail.com</p>
 
-        <div class="section">
-            <h3>Habilidades</h3>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>React</li>
-                <li>Git y GitHub</li>
-                <li>Trabajo en equipo</li>
-            </ul>
-        </div>
+        <div class="section-title">Idiomas</div>
+        <ul>
+            <li>Español (Nativo)</li>
+            <li>Inglés (Básico)</li>
+        </ul>
 
-        <div class="section">
-            <h3>Idiomas</h3>
-            <p>Español: Nativo</p>
-            <p>Inglés: Intermedio</p>
-        </div>
+        <div class="section-title">Habilidades</div>
+        <ul>
+            <li>Responsabilidad</li>
+            <li>Trabajo en equipo</li>
+            <li>Adaptación rápida</li>
+            <li>Organización</li>
+        </ul>
+
+        <div class="section-title">Intereses</div>
+        <ul>
+            <li>Patín</li>
+            <li>Deporte</li>
+            <li>Tecnología</li>
+        </ul>
+
     </div>
 
-    <!-- LADO DERECHO -->
-    <div class="main">
-        <h2>Perfil Profesional</h2>
+    <!-- DERECHA -->
+    <div class="content">
+
+        <h2>Perfil</h2>
         <p>
-            Desarrollador web con experiencia en creación de aplicaciones modernas,
-            enfocado en soluciones eficientes y escalables. Busco oportunidades
-            para crecer profesionalmente y aportar valor en equipos dinámicos.
+            Estudiante de nivel secundario con orientación en informática, responsable y comprometida con el aprendizaje.
+            Me destaco por mi capacidad de adaptación, buena predisposición para el trabajo en equipo y aprendizaje rápido.
+            Busco mi primera experiencia laboral para desarrollar habilidades y adquirir experiencia.
         </p>
 
-        <h2>Experiencia Laboral</h2>
-
-        <div class="job">
-            <h4>Desarrollador Frontend - Empresa XYZ</h4>
-            <span>2022 - Actualidad</span>
-            <p>
-                Desarrollo de interfaces web con React, optimización de rendimiento
-                y colaboración con equipos de diseño.
-            </p>
-        </div>
-
-        <div class="job">
-            <h4>Soporte IT - Empresa ABC</h4>
-            <span>2020 - 2022</span>
-            <p>
-                Mantenimiento de sistemas, asistencia a usuarios y resolución de
-                problemas técnicos.
-            </p>
-        </div>
-
         <h2>Educación</h2>
+        <p><strong>Escuela José Manuel Estrada</strong><br>
+        4° año – Orientación en Informática (En curso)</p>
 
-        <div class="job">
-            <h4>Tecnicatura en Programación</h4>
-            <span>UTN - 2018 - 2021</span>
-        </div>
+        <h2>Conocimientos</h2>
+        <p>
+            HTML básico, GitHub, procesamiento digital, herramientas informáticas,
+            Microsoft Word, Excel y Canva.
+        </p>
 
-        <h2>Proyectos</h2>
-
-        <div class="job">
-            <h4>Portfolio Personal</h4>
-            <p>
-                Sitio web personal para mostrar proyectos y habilidades técnicas.
-            </p>
-        </div>
+        <h2>Disponibilidad</h2>
+        <p>Disponibilidad horaria flexible</p>
 
     </div>
 
